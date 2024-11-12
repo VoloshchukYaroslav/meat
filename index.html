@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Продаж натуральних курячих джерків під брендом ЕКО-МЯСКО"
+    />
+    <title>ЕКО-МЯСКО - Курячі Джерки</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h1>ЕКО-МЯСКО</h1>
+          <p>Натуральні курячі джерки</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#home">Головна</a></li>
+            <li><a href="#about">Про нас</a></li>
+            <li><a href="#shop">Магазин</a></li>
+            <li><a href="#contact">Контакти</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <h2 class="hero-title">
+          Натуральні курячі джерки для здоров'я і смаку
+        </h2>
+        <p class="hero-info">
+          Легкі, смачні та корисні снеки без консервантів і штучних добавок.
+        </p>
+        <a href="#shop" class="hero-btn">Купити зараз</a>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2>Про нас</h2>
+        <p>
+          ЕКО-МЯСКО — це бренд, який пропонує тільки найкращі курячі джерки,
+          виготовлені з екологічно чистих продуктів без додавання шкідливих
+          хімічних речовин.
+        </p>
+        <p>
+          Наші джерки є ідеальним вибором для тих, хто слідкує за здоров'ям, але
+          не хоче відмовлятися від смачних і поживних перекусів.
+        </p>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="shop" class="shop">
+      <div class="container">
+        <h2>Наші Продукти</h2>
+        <div class="products">
+          <div class="product">
+            <img src="jerky1.jpg" alt="Курячі джерки з травами" />
+            <h3 class="products-title">Курячі джерки оригінальні (120г)</h3>
+            <p class="products-info">Пачка курячих джерків 120г за 120 грн.</p>
+            <p class="price"><strong>Ціна за 1 грам:</strong> 1 грн</p>
+            <a href="#" class="btn">Додати в кошик</a>
+          </div>
+          <div class="product">
+            <img src="jerky2.jpg" alt="Курячі джерки зі спеціями" />
+            <h3>Замовлення на інші об'єми</h3>
+            <p class="price">
+              Ви можете замовляти джерки в будь-яких об'ємах. Ціна за 1 грам — 1
+              грн.
+            </p>
+            <a href="#" class="btn">Додати в кошик</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Контакти</h2>
+        <p>Для замовлень та питань, будь ласка, пишіть нам:</p>
+        <form action="submit_form.php" method="POST">
+          <input type="text" name="name" placeholder="Ваше ім'я" required />
+          <input type="email" name="email" placeholder="Ваш email" required />
+          <textarea
+            name="message"
+            placeholder="Ваше повідомлення"
+            required
+          ></textarea>
+          <button type="submit" class="btn">Відправити</button>
+        </form>
+        <p>
+          Також ви можете замовити через наш
+          <a href="https://www.instagram.com/maksim_midko" target="_blank"
+            >Instagram</a
+          >.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 ЕКО-МЯСКО. Всі права захищено.</p>
+      </div>
+    </footer>
+  </body>
+</html>
